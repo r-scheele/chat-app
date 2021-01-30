@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://habeebullah01:habeebullah01@cluster0.li0rs.mongodb.net/chat-app?retryWrites=true&w=majority"
+}
