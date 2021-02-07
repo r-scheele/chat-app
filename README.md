@@ -32,7 +32,7 @@ $ project is active on http://localhost:4000
 ```
 
 ## Description
-This is a simple react weather app using OpenWeatherMap API.
+This is a simple NodeJS chat app, to be improved!!!.
  
 ## Technologies
 Project uses:
