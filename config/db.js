@@ -1,9 +1,11 @@
 const mongoose = require("mongoose");
+require("dotenv").config()
 
 // A package used to get global variable from config
 const config = require("config");
 //Get connection variable from default.json
-const db = config.get("mongoURI");
+//const db = config.get("mongoURI");
+const db = process.env.mongoURI
 
 const connectDB = async () => {
     try {
