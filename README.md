@@ -19,7 +19,7 @@ Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/e
 ```bash
 $ npm install # or yarn
 
-$create a dotenv file with mongoURI as the key, and your mongoDB atlas connection string as the value
+$ create a dotenv file with mongoURI as the key, and your mongoDB atlas connection string as the value
 ```
 
 Run it
@@ -28,7 +28,7 @@ $ npm start # or yarn start
 
 $ npm run dev #run in development mode
 
-$project is active on http://localhost:4000
+$ project is active on http://localhost:4000
 ```
 
 ## Description
@@ -36,6 +36,7 @@ This is a simple react weather app using OpenWeatherMap API.
  
 ## Technologies
 Project uses:
-* React
-* Styled Component
+* Express
+* Socket.io
+* Vanilla javascript
 
