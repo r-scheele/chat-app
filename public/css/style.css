@@ -18,7 +18,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   background: #3b3838;
-  margin: 20px;
+  margin: 5px;
 }
 
 .dark-mode {
@@ -49,9 +49,10 @@ a {
   flex-direction: column;
 }
 .chat-container {
+  align-items: center;
   max-width: 1100px;
   background: #fff;
-  margin: 30px auto;
+  margin: auto;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -75,7 +76,7 @@ a {
 .chat-sidebar {
   background: var(--dark-color-b);
   color: #fff;
-  padding: 20px 20px 60px;
+  padding: 0.5rem;
   overflow-y: auto;
 }
 
@@ -97,7 +98,7 @@ a {
 }
 
 .chat-messages {
-  padding: 30px;
+  padding: 15px;
   max-height: 500px;
   overflow-y: auto;
   height: 485px;
@@ -201,8 +202,18 @@ hr {
   color: var(--dark-color-a);
 }
 @media (max-width: 700px) {
+  .chat-container{
+    margin: 5px auto;
+  }
   .chat-main {
     display: block;
+  }
+  .chat-sidebar{
+    height: fit-content;
+    overflow: auto;
+  }
+  .chat-messages{
+    height: 19rem;
   }
   #chat-form {
     flex-wrap: wrap;
